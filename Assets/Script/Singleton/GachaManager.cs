@@ -12,7 +12,7 @@ public class GachaManager : Singleton<GachaManager>
     public void DrawGacha()
     {
        
-        int index = Random.Range(0, DataManager.Instance.CharacterDatabase.items.Count); // ランダムなインデックスを取得
+        int index = Random.Range(0, DataManager.Instance.CharacterDatabase.characters.Count); // ランダムなインデックスを取得
         
         DataManager.Instance.HaveCharacterList[index]++; // ゲットしたキャラクターのインデックスをリストに追加
 

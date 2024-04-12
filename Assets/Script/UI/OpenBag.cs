@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Gacha1BScript : MyButton
+public class OpenBag : MyButton
 {
+ 
     protected override void OnButtonUp()
     {
-        SceneManager.LoadScene(1);
-        Debug.Log("MoveToGacha");
+        SceneManager.LoadScene(4);
     }
 }

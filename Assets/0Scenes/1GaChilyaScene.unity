@@ -223,6 +223,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1177850815192930249, guid: f1fe311b9d9232b46a33a7c7e60ea8bc, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177850815192930249, guid: f1fe311b9d9232b46a33a7c7e60ea8bc, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1320602298196477143, guid: f1fe311b9d9232b46a33a7c7e60ea8bc, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -306,6 +314,38 @@ PrefabInstance:
     - target: {fileID: 3652510310321757501, guid: f1fe311b9d9232b46a33a7c7e60ea8bc, type: 3}
       propertyPath: m_Name
       value: GachaScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976342711304765266, guid: f1fe311b9d9232b46a33a7c7e60ea8bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dd7a6ea595d26394c8c9a94b013338cd, type: 3}
+    - target: {fileID: 5552362783298586400, guid: f1fe311b9d9232b46a33a7c7e60ea8bc, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552362783298586400, guid: f1fe311b9d9232b46a33a7c7e60ea8bc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552362783298586400, guid: f1fe311b9d9232b46a33a7c7e60ea8bc, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552362783298586400, guid: f1fe311b9d9232b46a33a7c7e60ea8bc, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552362783298586400, guid: f1fe311b9d9232b46a33a7c7e60ea8bc, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -108
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552362783298586400, guid: f1fe311b9d9232b46a33a7c7e60ea8bc, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -348
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552362783298586400, guid: f1fe311b9d9232b46a33a7c7e60ea8bc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
