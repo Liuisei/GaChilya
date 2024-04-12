@@ -24,7 +24,7 @@ public class ImageView : MonoBehaviour
     {
         //キャラクターデータベースからキャラクターの情報を取得
         
-        GachaCharacter data = DataManager.Instance.CharacterDatabase.items[id];
+        GachaCharacter data = DataManager.Instance.CharacterDatabase.characters[id];
         
         //キャラクターの画像をセット
         _rawimage.texture = data.characterIcon;

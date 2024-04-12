@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a319625571c17ec49ad17f48619f6646, type: 3}
   m_Name: Archer
   m_EditorClassIdentifier: 
+  ID: 0
   characterName: "\u30A2\u30FC\u30C1\u30E3\u30FC"
-  characterIcon: {fileID: 2800000, guid: 5097625a03f991942b51c4780f92471c, type: 3}
+  characterIcon: {fileID: 2800000, guid: dd7a6ea595d26394c8c9a94b013338cd, type: 3}
