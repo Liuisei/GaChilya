@@ -44,4 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dfb7242dfc1a6441b47c13be02f2934, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _money: 1000
+  characterDatabase: {fileID: 11400000, guid: 85bc4ddf7c96cd849b09108c56fc8326, type: 2}
+  money: 1000
+  haveCharacterList: 0000000000000000000000000000000000000000
+  getCharacterList: 

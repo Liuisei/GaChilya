@@ -1,17 +1,21 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class GachaManager : Singleton<GachaManager>
 {
-    public CharacterDatabase characterDatabase; // CharacterDatabaseの参照
-
     public override void AwakeFunction()
-    {
-    }
-    // ガチャを引くメソッド
-    public GachaCharacter DrawGacha()
-    {
-        int index = Random.Range(0, characterDatabase.items.Count); // ランダムなインデックスを取得
-        return characterDatabase.items[index];                      // ランダムに選ばれたキャラクターを返す
+    {      
     }
     
+    public void DrawGacha()
+    {
+       
+        int index = Random.Range(0, DataManager.Instance.CharacterDatabase.items.Count); // ランダムなインデックスを取得
+        
+        DataManager.Instance.HaveCharacterList[index]++; // ゲットしたキャラクターのインデックスをリストに追加
+
+        DataManager.Instance.GetCharacterList.Add(index); // ゲットしたキャラクターのインデックスをリストに追加
+    }
 }

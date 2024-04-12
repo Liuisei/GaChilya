@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a795e1d866749f4ab3039a81ff5d1e3, type: 3}
   m_Name: Paladin
   m_EditorClassIdentifier: 
-  characterName: 
-  characterIcon: {fileID: 0}
-  soundEffect: {fileID: 0}
+  characterName: "\u8056\u9A0E\u58EB"
+  characterIcon: {fileID: 2800000, guid: 7f4d7f25433515e489bcd4ce35727403, type: 3}

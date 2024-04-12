@@ -6,12 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/0Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
+    path: Assets/0Scenes/0GameScene.unity
     guid: 3de39fb7bea04dc4193dc35d61a54ad9
   - enabled: 1
-    path: Assets/Scenes/GaChilyaScene.unity
+    path: Assets/0Scenes/1GaChilyaScene.unity
     guid: d29040fcf0864c84e8f3d97adb831efc
+  - enabled: 1
+    path: Assets/0Scenes/OneGachilya.unity
+    guid: 117cd6a7f40844e468d7635aaa7aebba
+  - enabled: 1
+    path: Assets/0Scenes/10Gachilya.unity
+    guid: ae906da9f88cfa441b5fa89a7c684d5a
   m_configObjects: {}
